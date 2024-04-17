@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* || RESETS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* || GENERAL */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #282A36;
+  color: whitesmoke;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/* || FORM */
+
+form {
+  width: 300px;
+  border-radius: 8px;
+  background-color: #44475A;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 10px;
+  border-radius: 8px;
+  border: none;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+legend {
+  text-align: center;
+  padding-top: 10px;
+}
+
+input {
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+input::placeholder{
+  color: grey;
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+}
+
+#calcular {
+  padding: 10px;
+  background-color: #333;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#calcular:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* || RESULT */
+
+#result {
+  text-align: center;
+  line-height: 1.5;
+}
