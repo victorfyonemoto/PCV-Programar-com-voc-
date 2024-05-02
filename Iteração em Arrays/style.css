@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  justify-content: center;
+  background-color: #09090b;
+  color: #fafafa;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.numeros{
+  border: 2px solid #d97706;
+}
+
+.dobro{
+  border: 2px solid #65a30d;
+}
